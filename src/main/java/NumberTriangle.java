@@ -94,7 +94,7 @@ public class NumberTriangle {
             if(path.charAt(i) == 'l'){
                 current = current.left;
             }else{
-                current = current.left;
+                current = current.right;
             }
         }
         return current.getRoot();
